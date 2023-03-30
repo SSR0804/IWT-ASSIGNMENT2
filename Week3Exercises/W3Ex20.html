@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week3_Excercise20</title>
+        <style>
+			.container{
+    background-color:hsl(36, 100%, 51%);
+    display:flex; 
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    justify-content:space-around; /*for horizontal alignment*/
+    align-items:center; /*for vertical alignment*/
+	position:relative;
+}
+.container > nav{
+	background-image:url("images/30.jpg");
+    width:100%;
+    height:100%;
+}
+.container > nav > ul{
+	display:flex;
+	flex-direction:row;
+    justify-content:center;
+    align-items:center;
+	font-size:17px;
+	list-style-type:none;
+}
+.container > nav > ul > a{
+	text-decoration:none;
+    display:block;
+}
+.container > nav > ul > a > li:hover{
+    transform:scale(1.1);
+    transition:1s;
+}
+.container > nav > ul > a > li > span:hover{
+    color:yellow;
+}
+ span{
+	color:white;
+	margin:15px;
+}
+.container > .c1{
+    background-image:url("images/bgs/woven.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c2{
+	background-image:url("images/bgs/dark_wood.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c3{
+    background-image:url("images/img.jpeg");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c4{
+    background-image:url("images/bgs/random_grey_variations.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c5{
+    background-image:url("images/bgs/wood_1.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c6{
+    background-image:url("images/bgs/starring.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c7{
+    background-image:url("images/bgs/bgnoise_Ig.png");
+    width:100%;
+    height:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	color:white;
+	font-size:20px;
+}
+.container > .c8{
+    background-image:url("images/21.jpg");
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c1 > div {
+    background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c2 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c3 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c4 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c5 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c6 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:70%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c8 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+		</style>>
+    </head>
+    <body>
+        <div class="container">
+			<nav>
+				<ul>
+					<a href="#Obj"><li><span>OBJECTIVE</span></li></a>
+					<a href="#Pd"><li><span>PERSONAL DETAILS</span></li></a>
+					<a href="#Eq"><li><span>EDUCATIONAL QUALIFICATION</span></li></a>
+					<a href="#c"><li><span>CERTIFICATION</span></li></a>
+					<a href="#cp"><li><span>COMPUTER PROFICIENCY</span></li></a>
+					<a href="#Ec"><li><span>EXTRA CURRICULAR ACTIVITIES</span></li></a>
+					<a href="#d"><li><span>DECLARATION</span></li></a>
+				</ul>
+			</nav>
+			<div class="c1">
+				<div>
+				<a name="Obj">
+					<p> 
+						<h1 align=center>SONAM KUMARI SINGH</h1>
+						<h3 align=center>B.Tech 3rd Year Undergraduate</h3><br>
+						I am a fresher in the corporate culture, but ready to accept the challenges 
+						utilizing my technical skills, would love to work         
+						with an esteemed company as an intern. It will give me a                   
+						platform to use my knowledge and skills for  mutual growth. I  
+						want to pursue a challenging career in a progressive environment 
+						where learning, innovation and creativity are encouraged, where 
+						my skills and  knowledge can be enhanced to their maximum 
+						potential.
+					</p>
+				</a>
+				</div>
+			</div>
+            <div class="c2">
+				<div>
+				<a name="Pd">
+					<p>
+						<h1 align=center>PERSONAL DETAILS</h1>
+						<pre>Contact No: +91-8252565035<br>Email: sonamsinghbhardwaj123@gmail.com<br>Permanent Address: 3G Natraj Tower, Gandhi Road, Dhanbad, jharkhand, Pin:826001.<br>Father’s Name: Shri Dilip Kumar Singh<br>Mother’s Name: Srmt. Binita Singh<br>Date of Birth: 18-07-2001<br>Age:21yrs.<br>Nationality: Indian<br>Marital Status: Single/Unmarried<br>Languages Known: Hindi, English and Regional</pre>
+					</p>
+				</a>
+				</div>
+			</div>
+			<div class="c3">
+				<div>
+				<a name=Eq>
+					<p>
+						<h1 align=center>EDUCATIONAL QUALIFICATION</h1>
+                        <h4 align=center>Bachelor of Technology</h4>
+                        Banasthali Vidyapith,Rajasthan<br>
+                        08/2020-Present (3rd Year, 6th Semester) CGPA:9.11<br>                                                
+                        Course: Information Technology<br>
+                        <h4 align=center>12th: CBSE(Central Board of Secondary Education)</h4>
+                        Dhanbad Public School,Govindpur,P.O.: K.G. Ashram,Dhanbad<br>
+                        (2018-2019) Percentage: 79.89%<br>
+                        Subject opted: Physics , Chemistry , Mathematics , English , Physical Education, Painting<br>
+						<h4 align=center>10th: CBSE(Central Board of Secondary Education)</h4><br>
+                        Dhanbad Public School,Govindpur,P.O.: K.G. Ashram,Dhanbad<br>
+                        (2016-2017) Percentage: 93.1%<br>
+                        Subject opted: Science, Mathematics, English, Social Studies, Sanskrit<br>
+					</p>
+				</a>
+				</div>
+			</div>
+			<div class="c8">
+				<div>
+				<a name=c>
+					<p>
+						<h1 align=center>CERTIFICATIONS</h1>
+                        <h4 align=center>Certificate in Shot-put throw(inter-school)</h4>
+                        Group-D Competion: Shot-put throw<br>
+                        <b>Issued:</b> January, 2019 Posiion: Second<br>
+					</p>
+				</a>
+				</div>
+			</div>
+			<div class="c4">
+				<div>
+				<a name="cp">
+					<p>
+						<h1 align=center>COMPUTER PROFICIENCY</h1>
+						<ol>
+							<li>Microsoft Office:
+								<ul type=disc>
+									<li>Word</li>
+									<li>Power Point</li>
+								</ul>
+							</li>
+							<li>Presentations/Slideshows:
+								<ul type=disc>
+									<li>Power Point</li>
+								</ul>
+							</li>
+                            <li>Web Writing Skills:
+								<ul type=disc>
+									<li>WordPress: Basic</li>
+									<li>HTML: High</li>
+									<li>CSS: Intermediate</li>
+									<li>JavaScript: Intermediate</li>
+								</ul>
+							</li>
+							<li>Software Skills:
+								<ul type=disc>
+									<li>C</li>
+									<li>Java</li>
+									<li>C++</li>
+									<li>Python: Basic</li>
+								</ul>
+							</li>
+							<li>Operating Systems:
+                                <ul type=disc>
+									<li>Microsoft Windows XP</li>
+									<li>Windows 7</li>
+                                    <li>Windows 10</li>
+								</ul>
+							</li>
+							<li>Database Management System (DBMS):
+								<ul type=disc>
+									<li>Intermediate knowledge about iSQLPlus</li>
+                                    <li>Worked with Oracle Server</li>
+                                    <li>Efficient in writing Intermediate SQL queries</li>
+								</ul>
+							</li>
+                            <li>Data Structures (Intermediate Level )</li>
+                            <li>Object Oriented Programming (Basic Level)</li>
+						</ol>
+					</p>
+				</a>
+				</div>
+			</div>
+			<div class="c5">
+				<div>
+				<a name="Ec">
+					<p>
+						<h1>EXTRA CURRICULAR ACTIVITIES</h1>
+						<ol>
+							<li>Martial Arts</li>
+                            <li>Playing Basketball, Disc-throw, Shot-put throw, Javeline and Badminton.</li>
+							<li>Drawing and Painting</li>
+							<li>To promote education among the under privileged society.</li>
+							<li>To promote Awareness of technology's advantages and disadvantages on youth and our health.</li>
+						</ol>
+						<h1>AREAS OF INTEREST</h1>
+						<ul type=disc>
+							<li>Major:
+								<ul type=circle>
+									<li>Programming</li>
+									<li>Problem Solving</li>
+									<li>Management and Communication</li>
+								</ul>
+							</li>
+							<li>Minor:
+								<ul type=circle>
+									<li>Debating</li>
+									<li>Exploring Places</li>
+									<li>Reading and exploring spiritual books</li>
+								</ul>
+							</li>
+						</ul>
+					</p>
+				</a>
+				</div>
+			</div>
+			<div class="c6">
+				<div>
+				<a name="d">
+					<p>
+						<h1 align=center>DECLARATION</h1>
+                        I hereby declare that the above information is true and correct to
+                        the best of my knowledge and belief and that I will do my best for 
+                        the good of the organization.                                                            
+                        <pre>        Date: 19/02/2023                        Place: Dhanbad, Jharkhand</pre>
+					</p>
+				</a>
+				</div>
+			</div>
+			<div class="c7">
+				<pre>©Sonam Kumari Singh 2023-2026.</pre>
+			</div>
+		</div>
+    </body>
+</html>
